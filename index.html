@@ -7,10 +7,15 @@
     <title>Develop Website</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap-5.min.css">
-    <!-- Custome CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
     <!-- fontawesome -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Custome CSS -->
+    <!-- Owl carosel min.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Owl carosel them.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <!-- nav-bar start -->
@@ -57,13 +62,143 @@
         </div>
     </nav>
     <!-- nav-bar end -->
-
+    <!-- home slider start -->
+    <section>
+        <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/Web-development-1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/Web-Development-2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/web-development-3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- home slider end -->
+    <!-- source code ssection start -->
+    <section>
+        <div class="container-fluid">
+            <h1 class="text-center fw-bold my-4">The best place for your beautiful <br><span class="text-warning">website design with source code.</span></h1>
+            <p class="text-center">Devingine is a beautiful website design and source code proveding platform.<br> From here you can easily get your desired design.</p>
+            <div class="row">
+                <div class="owl-carousel owl-theme">
+                    <div class="item m-2">
+                        <div class="card shadow border-0">
+                            <img src="assets/images/source-code/card-design-2021-05-15-60a01c809d523.png" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-center">Card Design</h5>
+                        </div>
+                    </div>
+                    <div class="item  m-2">
+                        <div class="card shadow border-0">
+                            <img src="assets/images/source-code/css-form-2021-05-15-60a01c655b61d.png" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-center">Login Form</h5>
+                        </div>
+                    </div>
+                    <div class="item  m-2">
+                        <div class="card shadow border-0">
+                            <img src="assets/images/source-code/footer-design-2021-05-15-60a01c920b733.png" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-center">Footer Design</h5>
+                        </div>
+                    </div>
+                    <div class="item  m-2">
+                        <div class="card shadow border-0">
+                            <img src="assets/images/source-code/header-design-2021-05-15-60a01f3e73b14.jpg" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-center">Header Design</h5>
+                        </div>
+                    </div>
+                    <div class="item  m-2">
+                        <div class="card shadow border-0">
+                            <img src="assets/images/source-code/landing-page-2021-06-08-60bfb53ee6e10.jpg" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-center">Landing Page</h5>
+                        </div>
+                    </div>
+                    <div class="item  m-2">
+                        <div class="card shadow border-0">
+                            <img src="assets/images/source-code/psd-to-html-2021-08-19-611eaf3f78a42.jpg" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-center">PHD to HTML</h5>
+                        </div>
+                    </div>
+                    <div class="item  m-2">
+                        <div class="card shadow border-0">
+                            <img src="assets/images/source-code/uxui-design-2021-04-11-6072c6c104805.webp" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-center">UX/UI Design</h5>
+                        </div>
+                    </div>
+                    <div class="item  m-2">
+                        <div class="card shadow border-0">
+                            <img src="assets/images/source-code/web-design-2021-05-15-60a01f4ccc11f.jpg" class="card-img-top" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="text-center">Web Design</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- source code ssection end -->
     <!-- Bootstrap Bundle JS -->
     <script src="assets/js/bundle.min.js"></script>
     <!-- Bootstrap Popper JS -->
-    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>    
     <!-- Bootstrap min JS -->
     <script src="assets/js/bootstrap-5.min.js"></script>
+    <!-- jQuery min.js -->
+    <script src="assets/js/3.6.0-jquery.min.js"></script>
+    <!-- Owl carosel min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:2
+                }
+            }
+        })
+    </script>
+    <!-- Custom JS -->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
